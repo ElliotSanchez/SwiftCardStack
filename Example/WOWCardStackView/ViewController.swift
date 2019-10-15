@@ -9,7 +9,7 @@
 import UIKit
 import WOWCardStackView
 
-class ViewController: UIViewController, CardStackViewDataSource, CardStackViewDelegate {
+class ViewController: UIViewController {
 
     @IBOutlet weak var cardStackView: CardStackView!
     var orderNo: Int = 3
@@ -19,31 +19,6 @@ class ViewController: UIViewController, CardStackViewDataSource, CardStackViewDe
         
         cardStackView.dataSource = self
         cardStackView.delegate = self        
-    }
-
-    func nextCard(in: CardStackView) -> CardView? {
-        let card = createCard(order: orderNo)
-        orderNo += 1
-        return card
-    }
-    
-    func cardStackView(_ cardStackView: CardStackView, cardAt index: Int) -> CardView {
-        return createCard(order: index)
-    }
-    
-    func numOfCardInStackView(_ cardStackView: CardStackView) -> Int {
-        return 3
-    }
-    
-    public func cardStackView(_: CardStackView, didSelect card: CardView) {
-        if let card = card as? MyCard {
-            print("Clicked: \(card.id)")
-            
-            if let details = self.storyboard?.instantiateViewController(withIdentifier: "DetailsViewController") as? DetailsViewController {
-                details.id = card.id
-                self.navigationController?.pushViewController(details, animated: true)
-            }
-        }
     }
     
     func createCard(order: Int) -> MyCard {
@@ -64,3 +39,40 @@ class ViewController: UIViewController, CardStackViewDataSource, CardStackViewDe
 
 }
 
+
+extension ViewController: CardStackViewDataSource {
+    
+    func nextCard(in: CardStackView) -> CardView? {
+        if orderNo < 4 {
+            orderNo += 1
+        } else {
+            orderNo = 1
+        }
+        
+        let card = createCard(order: orderNo)
+        return card
+    }
+    
+    func cardStackView(_ cardStackView: CardStackView, cardAt index: Int) -> CardView {
+        return createCard(order: index)
+    }
+    
+    func numOfCardInStackView(_ cardStackView: CardStackView) -> Int {
+        return 3
+    }
+}
+
+
+extension ViewController: CardStackViewDelegate {
+    
+    public func cardStackView(_: CardStackView, didSelect card: CardView) {
+           if let card = card as? MyCard {
+               print("Clicked: \(card.id)")
+               
+               if let details = self.storyboard?.instantiateViewController(withIdentifier: "DetailsViewController") as? DetailsViewController {
+                   details.id = card.id
+                   self.navigationController?.pushViewController(details, animated: true)
+               }
+           }
+       }
+}
