@@ -81,7 +81,7 @@ open class CardView: UIView {
         }
     }
     
-    func drag(gesture: UIPanGestureRecognizer) {
+    @objc func drag(gesture: UIPanGestureRecognizer) {
         
         guard isTopMost() else {
             return

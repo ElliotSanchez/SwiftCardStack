@@ -7,281 +7,252 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BB435974F6502810F53E407F2D79B8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		153730E22B89CF870B7C0FB65AC7B0B4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E24D25CD24FDC3F755891A58E14E385 /* CardView.swift */; };
-		3428B6756E7718D8311E82CD72BD61E8 /* Pods-WOWCardStackView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DDDE7D77AC66EB40444B1BFD83C4F8 /* Pods-WOWCardStackView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6FDA8539F923F1C5461FBAF1A5A0A408 /* Pods-WOWCardStackView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11B87663AD00B131AEFE4ED4189A40B /* Pods-WOWCardStackView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79F9B2AD0737D3ACA63FE42A082682E4 /* Pods-WOWCardStackView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B7EC1E7DC486E38E5E5BC54A0CF76B /* Pods-WOWCardStackView_Example-dummy.m */; };
-		AC5E8F6A6114354DBA01A5B2F6BEEE50 /* WOWCardStackView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DF5BBDAB1BEFC4C179D1A7FA88AA80 /* WOWCardStackView-dummy.m */; };
-		B111672F46236884B655D5F75B75FFD0 /* WOWCardStackView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9918CD32DEA851FACC06D046DA4861E /* WOWCardStackView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B568E284215C4FA9D6630ED2B067C60E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		BD685FF651A24EF963B76EF1249E1B55 /* CardStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA924C3D3AB63911AE5C683DBABB284 /* CardStackView.swift */; };
-		FA1E703215F58192865467B2FBB53D20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		FBB8FE010F28FA389CD8F197041EB894 /* Pods-WOWCardStackView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE3A655CDF011C2B83B924C5832A135 /* Pods-WOWCardStackView_Tests-dummy.m */; };
+		60D48D76D45D3AF3BB980008A5DD6ACC /* WOWCardStackView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D06A8E8667741785D8F2FF07A61499 /* WOWCardStackView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AC8F0A679602B16ACA30421AFE73F7B /* CardStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CDCEF5E0123B93D3FA5C4A039122E1 /* CardStackView.swift */; };
+		7AB125C171B6EE9184364CED2A656926 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8B186C150C44B5C3E3A07BBB621E4CB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8C8FB3EC44BB05613EBA6AA3DC06C2F8 /* Pods-WOWCardStackView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 988C1041CF8851C35B0B761876A2E7F0 /* Pods-WOWCardStackView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0243E58C4A64F5CF6166DDDC52D74D7 /* WOWCardStackView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC80613963CB6A36BCF41C2A96B86165 /* WOWCardStackView-dummy.m */; };
+		A07A14AD1C8A1FEB5972788DD7A81135 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72807DE6F7810491D7D7EEEDEAE7C93A /* CardView.swift */; };
+		EED8C698A9A3D1B995A4F93BCADCA5BA /* Pods-WOWCardStackView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3834BA0EC14387BC655F269F2B849D /* Pods-WOWCardStackView_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		00A13467D86109813BD39BD8FCB68D67 /* PBXContainerItemProxy */ = {
+		173E4222931201641F376FF0CE11F726 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9D74027CA3A8C170AD5F9D546BD76991;
+			remoteGlobalIDString = 6F6CCBBAE255556793D7BEB99D5EFEE6;
 			remoteInfo = WOWCardStackView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05B7EC1E7DC486E38E5E5BC54A0CF76B /* Pods-WOWCardStackView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WOWCardStackView_Example-dummy.m"; sourceTree = "<group>"; };
-		1466140EA31C31051C9BDEFA00AE8207 /* Pods-WOWCardStackView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WOWCardStackView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		14ABDE3992BE2202BD86EC2B025F4B1A /* WOWCardStackView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WOWCardStackView.modulemap; sourceTree = "<group>"; };
-		1C13F73529648A056FFCD20C57127D52 /* Pods-WOWCardStackView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WOWCardStackView_Example-resources.sh"; sourceTree = "<group>"; };
-		22A2FF2B033BD6636C204D7687A17DD3 /* Pods-WOWCardStackView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WOWCardStackView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		26DDDE7D77AC66EB40444B1BFD83C4F8 /* Pods-WOWCardStackView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WOWCardStackView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		2D53ADE759A4A25C7C6E95AA9BFC73BF /* Pods-WOWCardStackView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WOWCardStackView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		2E24D25CD24FDC3F755891A58E14E385 /* CardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		3984ECC5DE65F8D45936099DEF0BD59F /* Pods_WOWCardStackView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WOWCardStackView_Example.framework; path = "Pods-WOWCardStackView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E2FC208A1B7AB5ED0584268710E136C /* Pods-WOWCardStackView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WOWCardStackView_Tests.modulemap"; sourceTree = "<group>"; };
-		5421DB4C1F767329B77186567225347B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5702ABE1DE17D25451054AD7494A1EA6 /* Pods-WOWCardStackView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WOWCardStackView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5DA924C3D3AB63911AE5C683DBABB284 /* CardStackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CardStackView.swift; sourceTree = "<group>"; };
-		62179FD411B77E88ACE9D325272CABD4 /* Pods-WOWCardStackView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WOWCardStackView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		66318BC0BD11694BB4891658120C0763 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6AE3A655CDF011C2B83B924C5832A135 /* Pods-WOWCardStackView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WOWCardStackView_Tests-dummy.m"; sourceTree = "<group>"; };
-		6B9E9ABE17CD9126708A8FA25B7BDF80 /* Pods-WOWCardStackView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WOWCardStackView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7B121A0973934159B4D64EF067115CCA /* WOWCardStackView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WOWCardStackView.framework; path = WOWCardStackView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8795E19C4A5D1398D7D3B1480EAD4197 /* Pods-WOWCardStackView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WOWCardStackView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8C49A1401259FF3131219EC842D59DDC /* Pods-WOWCardStackView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WOWCardStackView_Example.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A11B87663AD00B131AEFE4ED4189A40B /* Pods-WOWCardStackView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WOWCardStackView_Example-umbrella.h"; sourceTree = "<group>"; };
-		A9918CD32DEA851FACC06D046DA4861E /* WOWCardStackView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WOWCardStackView-umbrella.h"; sourceTree = "<group>"; };
-		B46C793E83EFF12808A2F298DE2A11F2 /* WOWCardStackView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WOWCardStackView.xcconfig; sourceTree = "<group>"; };
-		B7ABEAADF3C676251A16C76A3B48C651 /* Pods-WOWCardStackView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WOWCardStackView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C72781604C787A50EF770433C342FEDB /* WOWCardStackView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WOWCardStackView-prefix.pch"; sourceTree = "<group>"; };
-		C871AEB990713607BDEB616BD753E6F4 /* Pods-WOWCardStackView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WOWCardStackView_Tests-resources.sh"; sourceTree = "<group>"; };
-		CBAE3F19F0C07E2D471506A43DE77E02 /* Pods-WOWCardStackView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WOWCardStackView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CD75DCE63977C88932740016A93012B0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2DF5BBDAB1BEFC4C179D1A7FA88AA80 /* WOWCardStackView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WOWCardStackView-dummy.m"; sourceTree = "<group>"; };
-		DD297BA9053D8DBA06D12A32AE210383 /* Pods-WOWCardStackView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WOWCardStackView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F7B49BAFAF226EF6A8BE9D68425474E7 /* Pods_WOWCardStackView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WOWCardStackView_Tests.framework; path = "Pods-WOWCardStackView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DC32053721699082A919C4C7E5EF2C /* Pods-WOWCardStackView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WOWCardStackView_Tests-dummy.m"; sourceTree = "<group>"; };
+		0606158FCA76133BFA696CBD31E2581B /* WOWCardStackView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WOWCardStackView-prefix.pch"; sourceTree = "<group>"; };
+		0999C833012E90D98FCF0F693F774B38 /* Pods-WOWCardStackView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WOWCardStackView_Tests-Info.plist"; sourceTree = "<group>"; };
+		134C9C3D8ADF8829D6F871E5F646F82F /* Pods-WOWCardStackView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WOWCardStackView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		25CDCEF5E0123B93D3FA5C4A039122E1 /* CardStackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardStackView.swift; path = WOWCardStackView/Classes/CardStackView.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4C7385D0D84354F354D4A056EF542073 /* WOWCardStackView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WOWCardStackView.modulemap; sourceTree = "<group>"; };
+		72807DE6F7810491D7D7EEEDEAE7C93A /* CardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = WOWCardStackView/Classes/CardView.swift; sourceTree = "<group>"; };
+		7CD297DC5DC3A1AC30295B4E5DEB520D /* WOWCardStackView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WOWCardStackView.xcconfig; sourceTree = "<group>"; };
+		85402233CD462CAB6F627C4A44E94FDE /* Pods-WOWCardStackView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WOWCardStackView_Example.modulemap"; sourceTree = "<group>"; };
+		87A6F22697628FF329C6FF8731C20B23 /* Pods-WOWCardStackView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WOWCardStackView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8EAE2992FD8B45F9171F2A3369A65C9E /* Pods-WOWCardStackView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WOWCardStackView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		934B382F07BA829C6DB79CD141F93C99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		988C1041CF8851C35B0B761876A2E7F0 /* Pods-WOWCardStackView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WOWCardStackView_Example-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A03C014A75F9FDC00C0A9554E39B4354 /* Pods-WOWCardStackView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WOWCardStackView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A39B88073CA47FBC9122FADCB721A21C /* WOWCardStackView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WOWCardStackView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A51E9A7C054BBB1534BF77DE1EEBA5F7 /* Pods-WOWCardStackView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WOWCardStackView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AA5E9C6F02E36EF917F860180C73C776 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AAF456C7E5504FF7D3F9639F90491076 /* Pods-WOWCardStackView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WOWCardStackView_Example-Info.plist"; sourceTree = "<group>"; };
+		AB3834BA0EC14387BC655F269F2B849D /* Pods-WOWCardStackView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WOWCardStackView_Example-dummy.m"; sourceTree = "<group>"; };
+		B1E0E25F2B67AC12A60FF470B8C31ED1 /* WOWCardStackView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WOWCardStackView-Info.plist"; sourceTree = "<group>"; };
+		B29854A4270EBD4C6AE808E633F9B5DD /* Pods_WOWCardStackView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WOWCardStackView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D3E1B81A17E60E56E61D4E4CFDE6FC /* Pods-WOWCardStackView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WOWCardStackView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BB4056724F812C0F17B2FE9F1D409C1C /* Pods-WOWCardStackView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WOWCardStackView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BC80613963CB6A36BCF41C2A96B86165 /* WOWCardStackView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WOWCardStackView-dummy.m"; sourceTree = "<group>"; };
+		C6FF5B855EC0A8A3AD96E2B326336C32 /* Pods-WOWCardStackView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WOWCardStackView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D5D06A8E8667741785D8F2FF07A61499 /* WOWCardStackView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WOWCardStackView-umbrella.h"; sourceTree = "<group>"; };
+		D6DB8AD0E55CCE5C2A2D84E04081E4A8 /* Pods-WOWCardStackView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WOWCardStackView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DC5907D90B49AD1F2D4DB033204CAA13 /* Pods-WOWCardStackView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WOWCardStackView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD16C8615C8735A6C0EED31A06B774E6 /* WOWCardStackView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WOWCardStackView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAFCD77CB93DDF9D5D8A10A383CD18B /* Pods-WOWCardStackView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WOWCardStackView_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		60859E5DF81DEDE6B3CEE657EBBBC235 /* Frameworks */ = {
+		79DD3AAE2F167E5F73C40DEB5E7C3CE2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA1E703215F58192865467B2FBB53D20 /* Foundation.framework in Frameworks */,
+				8B186C150C44B5C3E3A07BBB621E4CB6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7CA1FD96511B9DAB58618B7C8D897D81 /* Frameworks */ = {
+		AAA870035624A938D46ED83974969517 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BB435974F6502810F53E407F2D79B8A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AF62409DFC5569E367621CA0F55A205B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B568E284215C4FA9D6630ED2B067C60E /* Foundation.framework in Frameworks */,
+				7AB125C171B6EE9184364CED2A656926 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02379D47028886B8011B1C1AADFF995C /* Pods-WOWCardStackView_Example */ = {
+		08380744A1EF66C8991F6B28F0BBFA66 /* Pods-WOWCardStackView_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				66318BC0BD11694BB4891658120C0763 /* Info.plist */,
-				8C49A1401259FF3131219EC842D59DDC /* Pods-WOWCardStackView_Example.modulemap */,
-				1466140EA31C31051C9BDEFA00AE8207 /* Pods-WOWCardStackView_Example-acknowledgements.markdown */,
-				B7ABEAADF3C676251A16C76A3B48C651 /* Pods-WOWCardStackView_Example-acknowledgements.plist */,
-				05B7EC1E7DC486E38E5E5BC54A0CF76B /* Pods-WOWCardStackView_Example-dummy.m */,
-				DD297BA9053D8DBA06D12A32AE210383 /* Pods-WOWCardStackView_Example-frameworks.sh */,
-				1C13F73529648A056FFCD20C57127D52 /* Pods-WOWCardStackView_Example-resources.sh */,
-				A11B87663AD00B131AEFE4ED4189A40B /* Pods-WOWCardStackView_Example-umbrella.h */,
-				22A2FF2B033BD6636C204D7687A17DD3 /* Pods-WOWCardStackView_Example.debug.xcconfig */,
-				CBAE3F19F0C07E2D471506A43DE77E02 /* Pods-WOWCardStackView_Example.release.xcconfig */,
-			);
-			name = "Pods-WOWCardStackView_Example";
-			path = "Target Support Files/Pods-WOWCardStackView_Example";
-			sourceTree = "<group>";
-		};
-		2CBD019605C1C40B2A05A855FCDA7EAA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3984ECC5DE65F8D45936099DEF0BD59F /* Pods_WOWCardStackView_Example.framework */,
-				F7B49BAFAF226EF6A8BE9D68425474E7 /* Pods_WOWCardStackView_Tests.framework */,
-				7B121A0973934159B4D64EF067115CCA /* WOWCardStackView.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		41F73931E55DFD2E7205E6A2EB4DE0C6 /* WOWCardStackView */ = {
-			isa = PBXGroup;
-			children = (
-				C4B6FE0B0DB7022D89F1D92185745580 /* Classes */,
-			);
-			name = WOWCardStackView;
-			path = WOWCardStackView;
-			sourceTree = "<group>";
-		};
-		50DC180CF1861E9927D744AE4384E941 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				02379D47028886B8011B1C1AADFF995C /* Pods-WOWCardStackView_Example */,
-				B8A048802DAE692446F4D3604A3113D2 /* Pods-WOWCardStackView_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		60403069FB31BF9F127461EAF20491CD /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E8BE350B64BCE4DBB6FFD61E9D4CFAC3 /* WOWCardStackView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		6E739F03C05FE9EEC70ABEF20F66C556 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CD75DCE63977C88932740016A93012B0 /* Info.plist */,
-				14ABDE3992BE2202BD86EC2B025F4B1A /* WOWCardStackView.modulemap */,
-				B46C793E83EFF12808A2F298DE2A11F2 /* WOWCardStackView.xcconfig */,
-				D2DF5BBDAB1BEFC4C179D1A7FA88AA80 /* WOWCardStackView-dummy.m */,
-				C72781604C787A50EF770433C342FEDB /* WOWCardStackView-prefix.pch */,
-				A9918CD32DEA851FACC06D046DA4861E /* WOWCardStackView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WOWCardStackView";
-			sourceTree = "<group>";
-		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				60403069FB31BF9F127461EAF20491CD /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				2CBD019605C1C40B2A05A855FCDA7EAA /* Products */,
-				50DC180CF1861E9927D744AE4384E941 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		B8A048802DAE692446F4D3604A3113D2 /* Pods-WOWCardStackView_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				5421DB4C1F767329B77186567225347B /* Info.plist */,
-				4E2FC208A1B7AB5ED0584268710E136C /* Pods-WOWCardStackView_Tests.modulemap */,
-				6B9E9ABE17CD9126708A8FA25B7BDF80 /* Pods-WOWCardStackView_Tests-acknowledgements.markdown */,
-				62179FD411B77E88ACE9D325272CABD4 /* Pods-WOWCardStackView_Tests-acknowledgements.plist */,
-				6AE3A655CDF011C2B83B924C5832A135 /* Pods-WOWCardStackView_Tests-dummy.m */,
-				2D53ADE759A4A25C7C6E95AA9BFC73BF /* Pods-WOWCardStackView_Tests-frameworks.sh */,
-				C871AEB990713607BDEB616BD753E6F4 /* Pods-WOWCardStackView_Tests-resources.sh */,
-				26DDDE7D77AC66EB40444B1BFD83C4F8 /* Pods-WOWCardStackView_Tests-umbrella.h */,
-				8795E19C4A5D1398D7D3B1480EAD4197 /* Pods-WOWCardStackView_Tests.debug.xcconfig */,
-				5702ABE1DE17D25451054AD7494A1EA6 /* Pods-WOWCardStackView_Tests.release.xcconfig */,
+				FAAFCD77CB93DDF9D5D8A10A383CD18B /* Pods-WOWCardStackView_Tests.modulemap */,
+				A51E9A7C054BBB1534BF77DE1EEBA5F7 /* Pods-WOWCardStackView_Tests-acknowledgements.markdown */,
+				BB4056724F812C0F17B2FE9F1D409C1C /* Pods-WOWCardStackView_Tests-acknowledgements.plist */,
+				04DC32053721699082A919C4C7E5EF2C /* Pods-WOWCardStackView_Tests-dummy.m */,
+				0999C833012E90D98FCF0F693F774B38 /* Pods-WOWCardStackView_Tests-Info.plist */,
+				A03C014A75F9FDC00C0A9554E39B4354 /* Pods-WOWCardStackView_Tests-umbrella.h */,
+				DC5907D90B49AD1F2D4DB033204CAA13 /* Pods-WOWCardStackView_Tests.debug.xcconfig */,
+				8EAE2992FD8B45F9171F2A3369A65C9E /* Pods-WOWCardStackView_Tests.release.xcconfig */,
 			);
 			name = "Pods-WOWCardStackView_Tests";
 			path = "Target Support Files/Pods-WOWCardStackView_Tests";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		0C175D777E21115F90A222B5AB7CA839 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				4C7385D0D84354F354D4A056EF542073 /* WOWCardStackView.modulemap */,
+				7CD297DC5DC3A1AC30295B4E5DEB520D /* WOWCardStackView.xcconfig */,
+				BC80613963CB6A36BCF41C2A96B86165 /* WOWCardStackView-dummy.m */,
+				B1E0E25F2B67AC12A60FF470B8C31ED1 /* WOWCardStackView-Info.plist */,
+				0606158FCA76133BFA696CBD31E2581B /* WOWCardStackView-prefix.pch */,
+				D5D06A8E8667741785D8F2FF07A61499 /* WOWCardStackView-umbrella.h */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WOWCardStackView";
 			sourceTree = "<group>";
 		};
-		C4B6FE0B0DB7022D89F1D92185745580 /* Classes */ = {
+		1AFDC017E8C8C5C62E2D397B1B3DBED5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5DA924C3D3AB63911AE5C683DBABB284 /* CardStackView.swift */,
-				2E24D25CD24FDC3F755891A58E14E385 /* CardView.swift */,
+				B29854A4270EBD4C6AE808E633F9B5DD /* Pods_WOWCardStackView_Example.framework */,
+				DD16C8615C8735A6C0EED31A06B774E6 /* WOWCardStackView.framework */,
 			);
-			name = Classes;
-			path = Classes;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		E8BE350B64BCE4DBB6FFD61E9D4CFAC3 /* WOWCardStackView */ = {
+		51E0256D8BB4771FC410306D1FDA0574 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6E739F03C05FE9EEC70ABEF20F66C556 /* Support Files */,
-				41F73931E55DFD2E7205E6A2EB4DE0C6 /* WOWCardStackView */,
+				D20C362BD397FF8D5FD620139FF1CD24 /* WOWCardStackView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		702CFA31FDF05ECC1F55B178BC259ABA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C23FA4BCABCB5199D166F57B16295B12 /* Pods-WOWCardStackView_Example */,
+				08380744A1EF66C8991F6B28F0BBFA66 /* Pods-WOWCardStackView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A05102677ADCD7069B37550019BE706A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AA5E9C6F02E36EF917F860180C73C776 /* LICENSE */,
+				934B382F07BA829C6DB79CD141F93C99 /* README.md */,
+				A39B88073CA47FBC9122FADCB721A21C /* WOWCardStackView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C23FA4BCABCB5199D166F57B16295B12 /* Pods-WOWCardStackView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				85402233CD462CAB6F627C4A44E94FDE /* Pods-WOWCardStackView_Example.modulemap */,
+				134C9C3D8ADF8829D6F871E5F646F82F /* Pods-WOWCardStackView_Example-acknowledgements.markdown */,
+				87A6F22697628FF329C6FF8731C20B23 /* Pods-WOWCardStackView_Example-acknowledgements.plist */,
+				AB3834BA0EC14387BC655F269F2B849D /* Pods-WOWCardStackView_Example-dummy.m */,
+				C6FF5B855EC0A8A3AD96E2B326336C32 /* Pods-WOWCardStackView_Example-frameworks.sh */,
+				AAF456C7E5504FF7D3F9639F90491076 /* Pods-WOWCardStackView_Example-Info.plist */,
+				988C1041CF8851C35B0B761876A2E7F0 /* Pods-WOWCardStackView_Example-umbrella.h */,
+				D6DB8AD0E55CCE5C2A2D84E04081E4A8 /* Pods-WOWCardStackView_Example.debug.xcconfig */,
+				B9D3E1B81A17E60E56E61D4E4CFDE6FC /* Pods-WOWCardStackView_Example.release.xcconfig */,
+			);
+			name = "Pods-WOWCardStackView_Example";
+			path = "Target Support Files/Pods-WOWCardStackView_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				51E0256D8BB4771FC410306D1FDA0574 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1AFDC017E8C8C5C62E2D397B1B3DBED5 /* Products */,
+				702CFA31FDF05ECC1F55B178BC259ABA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D20C362BD397FF8D5FD620139FF1CD24 /* WOWCardStackView */ = {
+			isa = PBXGroup;
+			children = (
+				25CDCEF5E0123B93D3FA5C4A039122E1 /* CardStackView.swift */,
+				72807DE6F7810491D7D7EEEDEAE7C93A /* CardView.swift */,
+				A05102677ADCD7069B37550019BE706A /* Pod */,
+				0C175D777E21115F90A222B5AB7CA839 /* Support Files */,
 			);
 			name = WOWCardStackView;
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		175E72E557B3ECAA3F239456FE7E9AFA /* Headers */ = {
+		CEC4A3D93F0D9C0C8B4EAA03B4103B36 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B111672F46236884B655D5F75B75FFD0 /* WOWCardStackView-umbrella.h in Headers */,
+				60D48D76D45D3AF3BB980008A5DD6ACC /* WOWCardStackView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B2ECC744D7D1D2D076A628699B766FB /* Headers */ = {
+		E7E0EA2D10CDD568C3D66907A1B39AA1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FDA8539F923F1C5461FBAF1A5A0A408 /* Pods-WOWCardStackView_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		77D57797FD23B95CE1415DB0A0EAAA86 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3428B6756E7718D8311E82CD72BD61E8 /* Pods-WOWCardStackView_Tests-umbrella.h in Headers */,
+				8C8FB3EC44BB05613EBA6AA3DC06C2F8 /* Pods-WOWCardStackView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8BE3FE775817C9270B0C59CC7D743A13 /* Pods-WOWCardStackView_Example */ = {
+		26A8FF8D5E39DC4486EB1A4349C352D9 /* Pods-WOWCardStackView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28CF0683DE47A27C87D76696A66C21D8 /* Build configuration list for PBXNativeTarget "Pods-WOWCardStackView_Example" */;
+			buildConfigurationList = 4BCB201FCCA9376A8F2363DD0544D2CC /* Build configuration list for PBXNativeTarget "Pods-WOWCardStackView_Example" */;
 			buildPhases = (
-				5DCE5C7760193F402A27EE3F83CDC250 /* Sources */,
-				60859E5DF81DEDE6B3CEE657EBBBC235 /* Frameworks */,
-				5B2ECC744D7D1D2D076A628699B766FB /* Headers */,
+				E7E0EA2D10CDD568C3D66907A1B39AA1 /* Headers */,
+				37D9EDF77D5A3B6BB09D1A7DD7B3D289 /* Sources */,
+				AAA870035624A938D46ED83974969517 /* Frameworks */,
+				4CC5A1C8B313F020CE89720E2D5745B9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				48093CE1A9A30FD6450B68929ADB571B /* PBXTargetDependency */,
+				A57F6CDD58F82884C4BDE00ED35B47F1 /* PBXTargetDependency */,
 			);
 			name = "Pods-WOWCardStackView_Example";
 			productName = "Pods-WOWCardStackView_Example";
-			productReference = 3984ECC5DE65F8D45936099DEF0BD59F /* Pods_WOWCardStackView_Example.framework */;
+			productReference = B29854A4270EBD4C6AE808E633F9B5DD /* Pods_WOWCardStackView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9D74027CA3A8C170AD5F9D546BD76991 /* WOWCardStackView */ = {
+		6F6CCBBAE255556793D7BEB99D5EFEE6 /* WOWCardStackView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A0F269BE769CF88F4292BE8D295046C /* Build configuration list for PBXNativeTarget "WOWCardStackView" */;
+			buildConfigurationList = C3BF32950E32E538BC896B790A12A987 /* Build configuration list for PBXNativeTarget "WOWCardStackView" */;
 			buildPhases = (
-				ED384C2CE2F1CDB7C8644D03DED03F1F /* Sources */,
-				AF62409DFC5569E367621CA0F55A205B /* Frameworks */,
-				175E72E557B3ECAA3F239456FE7E9AFA /* Headers */,
+				CEC4A3D93F0D9C0C8B4EAA03B4103B36 /* Headers */,
+				ED6A3774275C7CA1C6D063BF82CC26BC /* Sources */,
+				79DD3AAE2F167E5F73C40DEB5E7C3CE2 /* Frameworks */,
+				432A95551E6DB602F2E69338355AF887 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -289,308 +260,266 @@
 			);
 			name = WOWCardStackView;
 			productName = WOWCardStackView;
-			productReference = 7B121A0973934159B4D64EF067115CCA /* WOWCardStackView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FE0185EB4489C9957334058233DB1C8B /* Pods-WOWCardStackView_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BEF56D506FC757FC813DE9C5B5C5DDB2 /* Build configuration list for PBXNativeTarget "Pods-WOWCardStackView_Tests" */;
-			buildPhases = (
-				0B11DE8E629CC86422FE6258F7FAA8FD /* Sources */,
-				7CA1FD96511B9DAB58618B7C8D897D81 /* Frameworks */,
-				77D57797FD23B95CE1415DB0A0EAAA86 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-WOWCardStackView_Tests";
-			productName = "Pods-WOWCardStackView_Tests";
-			productReference = F7B49BAFAF226EF6A8BE9D68425474E7 /* Pods_WOWCardStackView_Tests.framework */;
+			productReference = DD16C8615C8735A6C0EED31A06B774E6 /* WOWCardStackView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 2CBD019605C1C40B2A05A855FCDA7EAA /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1AFDC017E8C8C5C62E2D397B1B3DBED5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8BE3FE775817C9270B0C59CC7D743A13 /* Pods-WOWCardStackView_Example */,
-				FE0185EB4489C9957334058233DB1C8B /* Pods-WOWCardStackView_Tests */,
-				9D74027CA3A8C170AD5F9D546BD76991 /* WOWCardStackView */,
+				26A8FF8D5E39DC4486EB1A4349C352D9 /* Pods-WOWCardStackView_Example */,
+				6F6CCBBAE255556793D7BEB99D5EFEE6 /* WOWCardStackView */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		432A95551E6DB602F2E69338355AF887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC5A1C8B313F020CE89720E2D5745B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		0B11DE8E629CC86422FE6258F7FAA8FD /* Sources */ = {
+		37D9EDF77D5A3B6BB09D1A7DD7B3D289 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBB8FE010F28FA389CD8F197041EB894 /* Pods-WOWCardStackView_Tests-dummy.m in Sources */,
+				EED8C698A9A3D1B995A4F93BCADCA5BA /* Pods-WOWCardStackView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DCE5C7760193F402A27EE3F83CDC250 /* Sources */ = {
+		ED6A3774275C7CA1C6D063BF82CC26BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79F9B2AD0737D3ACA63FE42A082682E4 /* Pods-WOWCardStackView_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ED384C2CE2F1CDB7C8644D03DED03F1F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BD685FF651A24EF963B76EF1249E1B55 /* CardStackView.swift in Sources */,
-				153730E22B89CF870B7C0FB65AC7B0B4 /* CardView.swift in Sources */,
-				AC5E8F6A6114354DBA01A5B2F6BEEE50 /* WOWCardStackView-dummy.m in Sources */,
+				6AC8F0A679602B16ACA30421AFE73F7B /* CardStackView.swift in Sources */,
+				A07A14AD1C8A1FEB5972788DD7A81135 /* CardView.swift in Sources */,
+				A0243E58C4A64F5CF6166DDDC52D74D7 /* WOWCardStackView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		48093CE1A9A30FD6450B68929ADB571B /* PBXTargetDependency */ = {
+		A57F6CDD58F82884C4BDE00ED35B47F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WOWCardStackView;
-			target = 9D74027CA3A8C170AD5F9D546BD76991 /* WOWCardStackView */;
-			targetProxy = 00A13467D86109813BD39BD8FCB68D67 /* PBXContainerItemProxy */;
+			target = 6F6CCBBAE255556793D7BEB99D5EFEE6 /* WOWCardStackView */;
+			targetProxy = 173E4222931201641F376FF0CE11F726 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4873FC539BF578201EF0FEC32D230C37 /* Debug */ = {
+		4BDBBCF6EFFC644BBA68DF5FADBCD3FB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B46C793E83EFF12808A2F298DE2A11F2 /* WOWCardStackView.xcconfig */;
+			baseConfigurationReference = B9D3E1B81A17E60E56E61D4E4CFDE6FC /* Pods-WOWCardStackView_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/WOWCardStackView/WOWCardStackView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WOWCardStackView/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-WOWCardStackView_Example/Pods-WOWCardStackView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WOWCardStackView/WOWCardStackView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = WOWCardStackView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5D5072C075AA58D50A24233CCFCB23CF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22A2FF2B033BD6636C204D7687A17DD3 /* Pods-WOWCardStackView_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WOWCardStackView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-WOWCardStackView_Example/Pods-WOWCardStackView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WOWCardStackView_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		A8A519B157E8DC05934623C85CF50EDE /* Release */ = {
+		A920A3825FAC1B5CD4E653B9D29AE5AC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBAE3F19F0C07E2D471506A43DE77E02 /* Pods-WOWCardStackView_Example.release.xcconfig */;
+			baseConfigurationReference = D6DB8AD0E55CCE5C2A2D84E04081E4A8 /* Pods-WOWCardStackView_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WOWCardStackView_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-WOWCardStackView_Example/Pods-WOWCardStackView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-WOWCardStackView_Example/Pods-WOWCardStackView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WOWCardStackView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B6BAECC13621C68BF41EA43B9F9E99FA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8795E19C4A5D1398D7D3B1480EAD4197 /* Pods-WOWCardStackView_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WOWCardStackView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WOWCardStackView_Tests/Pods-WOWCardStackView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WOWCardStackView_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -599,113 +528,100 @@
 			};
 			name = Debug;
 		};
-		C85F674B16CC287910069E630E4669B6 /* Release */ = {
+		C30D758D0A0D1887271008FC99B4B14A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B46C793E83EFF12808A2F298DE2A11F2 /* WOWCardStackView.xcconfig */;
+			baseConfigurationReference = 7CD297DC5DC3A1AC30295B4E5DEB520D /* WOWCardStackView.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/WOWCardStackView/WOWCardStackView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WOWCardStackView/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/WOWCardStackView/WOWCardStackView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/WOWCardStackView/WOWCardStackView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_MODULE_NAME = WOWCardStackView;
 				PRODUCT_NAME = WOWCardStackView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		EF7855EA2C1F9259BEA2231E6E63CB47 /* Release */ = {
+		FA59992C924222DD697AFE391F21F562 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5702ABE1DE17D25451054AD7494A1EA6 /* Pods-WOWCardStackView_Tests.release.xcconfig */;
+			baseConfigurationReference = 7CD297DC5DC3A1AC30295B4E5DEB520D /* WOWCardStackView.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WOWCardStackView_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/WOWCardStackView/WOWCardStackView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WOWCardStackView/WOWCardStackView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WOWCardStackView_Tests/Pods-WOWCardStackView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WOWCardStackView_Tests;
+				MODULEMAP_FILE = "Target Support Files/WOWCardStackView/WOWCardStackView.modulemap";
+				PRODUCT_MODULE_NAME = WOWCardStackView;
+				PRODUCT_NAME = WOWCardStackView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28CF0683DE47A27C87D76696A66C21D8 /* Build configuration list for PBXNativeTarget "Pods-WOWCardStackView_Example" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D5072C075AA58D50A24233CCFCB23CF /* Debug */,
-				A8A519B157E8DC05934623C85CF50EDE /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4BCB201FCCA9376A8F2363DD0544D2CC /* Build configuration list for PBXNativeTarget "Pods-WOWCardStackView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
-				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+				A920A3825FAC1B5CD4E653B9D29AE5AC /* Debug */,
+				4BDBBCF6EFFC644BBA68DF5FADBCD3FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A0F269BE769CF88F4292BE8D295046C /* Build configuration list for PBXNativeTarget "WOWCardStackView" */ = {
+		C3BF32950E32E538BC896B790A12A987 /* Build configuration list for PBXNativeTarget "WOWCardStackView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4873FC539BF578201EF0FEC32D230C37 /* Debug */,
-				C85F674B16CC287910069E630E4669B6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BEF56D506FC757FC813DE9C5B5C5DDB2 /* Build configuration list for PBXNativeTarget "Pods-WOWCardStackView_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B6BAECC13621C68BF41EA43B9F9E99FA /* Debug */,
-				EF7855EA2C1F9259BEA2231E6E63CB47 /* Release */,
+				FA59992C924222DD697AFE391F21F562 /* Debug */,
+				C30D758D0A0D1887271008FC99B4B14A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
