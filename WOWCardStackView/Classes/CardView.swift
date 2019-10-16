@@ -104,7 +104,7 @@ open class CardView: UIView {
                 self.removeFromSuperview()
             } else {
                 // return back to original position
-                UIView.animate(withDuration: 0.3, delay: 0, usingSpringWithDamping: 0.6, initialSpringVelocity: 10, options: .curveEaseInOut, animations: {
+                UIView.animate(withDuration: 0.3, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 10, options: .curveEaseInOut, animations: {
                     self.center = self.originCenter
                 }, completion: { (complete) in
                 })

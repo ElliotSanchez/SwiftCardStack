@@ -104,7 +104,7 @@ public class CardStackView: UIView, CardViewDelegate {
         var index = 0
         let allCardViews = subviews.filter { $0.isKind(of: CardView.self) }
         for cardView in allCardViews.reversed() {
-            UIView.animate(withDuration: 0.4, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 20, options: .curveEaseInOut, animations: {
+            UIView.animate(withDuration: 0.4, delay: 0, usingSpringWithDamping: 0.7, initialSpringVelocity: 10, options: .curveEaseInOut, animations: {
                 cardView.frame = self.rectAt(index: index)
                 index += 1
             }, completion: { (complete) in
