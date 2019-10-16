@@ -8,21 +8,6 @@ Swipable card stack view.
 
 ![alt tag](stack.gif)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-WOWCardStackView is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "WOWCardStackView"
-```
-
 ## Author
 elliotsanchez, based on WOWCardStackView by zhouhao27
 
