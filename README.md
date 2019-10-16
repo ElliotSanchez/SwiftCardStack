@@ -1,4 +1,4 @@
-# WOWCardStackView
+# CardStack
 
 [![Version](https://img.shields.io/cocoapods/v/WOWCardStackView.svg?style=flat)](http://cocoapods.org/pods/WOWCardStackView)
 [![License](https://img.shields.io/cocoapods/l/WOWCardStackView.svg?style=flat)](http://cocoapods.org/pods/WOWCardStackView)
