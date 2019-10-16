@@ -139,11 +139,6 @@ public class CardStackView: UIView, CardViewDelegate {
         // heightForCard
         let heightForCard = standardCardHeight * percentScaleBasedOnPosition
         
-        
-        
-        
-        
-        
         return CGRect(
             x: xOffsetForCard,
             y: yOffsetForCard,
