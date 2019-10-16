@@ -118,13 +118,14 @@ public class CardStackView: UIView, CardViewDelegate {
         if let dataSource = dataSource {
             let total = dataSource.numOfCardInStackView(self)
             
-            let w = bounds.width
-            let h = bounds.height - CGFloat(total - 1) * offsetY
+            let stackViewWidth = bounds.width
+            let offetOfAllBackgroundCards = CGFloat(total - 1) * offsetY
+            let individualCardHeight = bounds.height - offetOfAllBackgroundCards
         
             let scale = CGFloat(pow(scaleFactor, Float(index)))
-            let x = ( w - w * scale ) / 2.0
-            let y = CGFloat(index)*offsetY + ( h - h * scale )
-            return CGRect(x: x, y: y, width: w * scale, height: h * scale)
+            let x = ( stackViewWidth - stackViewWidth * scale ) / 2.0
+            let y = CGFloat(index)*offsetY + ( individualCardHeight - individualCardHeight * scale )
+            return CGRect(x: x, y: y, width: stackViewWidth * scale, height: individualCardHeight * scale)
         }
         return CGRect.zero
     }

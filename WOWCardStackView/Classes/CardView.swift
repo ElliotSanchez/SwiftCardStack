@@ -91,7 +91,7 @@ open class CardView: UIView {
 
         if gesture.state == .ended {
             
-            if abs(translation.x) > bounds.width / 2.0 || abs(translation.y) > bounds.height / 2.0 {
+            if abs(translation.x) > bounds.width / 3.0 || abs(translation.y) > bounds.height / 2.0 {
                 delegate?.shouldRemoveCardView(self)
                 
                 // TODO:  better animation
