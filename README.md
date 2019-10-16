@@ -24,9 +24,8 @@ pod "WOWCardStackView"
 ```
 
 ## Author
-
-zhouhao27, zhou.hao.27@gmail.com
+elliotsanchez, based on WOWCardStackView by zhouhao27
 
 ## License
 
-WOWCardStackView is available under the MIT license. See the LICENSE file for more info.
+CardStack is available under the MIT license. See the LICENSE file for more info.
