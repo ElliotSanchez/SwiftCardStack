@@ -114,19 +114,41 @@ public class CardStackView: UIView, CardViewDelegate {
     
     // MARK: - Private methods
     private func rectAt(index: Int) -> CGRect {
+        guard let dataSource = dataSource else { return CGRect.zero }
         
-        if let dataSource = dataSource {
-            let total = dataSource.numOfCardInStackView(self)
-            
-            let stackViewWidth = bounds.width
-            let offetOfAllBackgroundCards = CGFloat(total - 1) * offsetY
-            let individualCardHeight = bounds.height - offetOfAllBackgroundCards
+        let total = dataSource.numOfCardInStackView(self)
+        let percentScaleBasedOnPosition = CGFloat(pow(scaleFactor, Float(index)))
         
-            let scale = CGFloat(pow(scaleFactor, Float(index)))
-            let x = ( stackViewWidth - stackViewWidth * scale ) / 2.0
-            let y = CGFloat(index)*offsetY + ( individualCardHeight - individualCardHeight * scale )
-            return CGRect(x: x, y: y, width: stackViewWidth * scale, height: individualCardHeight * scale)
-        }
-        return CGRect.zero
+        // xOffSetForCard
+        let stackViewWidth = bounds.width
+        let widthAdjustment = stackViewWidth * percentScaleBasedOnPosition
+        let xOffsetForCard = ( stackViewWidth - widthAdjustment ) / 2.0
+        
+        // widthForCard
+        let widthForCard = stackViewWidth * percentScaleBasedOnPosition
+        
+        // yOffsetForCard
+        let stackViewHieght = bounds.height
+        let offetOfAllBackgroundCards = CGFloat(total - 1) * offsetY
+        let standardCardHeight = stackViewHieght - offetOfAllBackgroundCards
+        let heightAdjustment = standardCardHeight * percentScaleBasedOnPosition
+        let individualCardHeight = standardCardHeight - heightAdjustment
+        let verticalStackShift = CGFloat(index)*offsetY
+        let yOffsetForCard = individualCardHeight + verticalStackShift
+        
+        // heightForCard
+        let heightForCard = standardCardHeight * percentScaleBasedOnPosition
+        
+        
+        
+        
+        
+        
+        return CGRect(
+            x: xOffsetForCard,
+            y: yOffsetForCard,
+            width: widthForCard,
+            height: heightForCard
+        )
     }
 }
